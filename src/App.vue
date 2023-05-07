@@ -115,18 +115,18 @@ export default {
       ],
       nav_link: [
         {
-          name: '夏特稀網站',
-          path: 'https://tershi.com',
+          name: 'yyw網站',
+          path: 'https://www.yywtw.cf',
           icon: ['fas', 'house']
         },
         {
-          name: '夏特稀部落格',
-          path: 'https://blog.tershi.com',
+          name: 'yyw部落格',
+          path: 'https://blog.yywtw.cf',
           icon: ['fas', 'pen-to-square']
         },
         {
-          name: '聯絡夏特稀',
-          path: 'https://www.tershi.com/about/contact',
+          name: '聯絡yyw',
+          path: 'https://vtuber.group',
           icon: ['fas', 'comment-dots']
         }
       ]
@@ -199,7 +199,7 @@ export default {
     //  hook the progress bar to start before we move router-view
     this.$router.beforeEach((to, from, next) => {
       // 自動標題(會從 router 裡面的 title 去抓)
-      document.title = '夏特稀履歷表 | ' + to.name
+      document.title = 'yyw履歷表 | ' + to.name
       // next()
       //  does the page we want to go to have a meta.progress object
       if (to.meta.progress !== undefined) {
